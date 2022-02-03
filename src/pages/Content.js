@@ -1,10 +1,11 @@
+import Profile from '../partials/Profile'
 
-
-export default function Content() {
+function Content() {
     return(
         <>
-            <p>Conteúdo place holder</p>
-            <p>Maybe this will be the profile</p>
+            <h1>Hello World</h1>
         </>
     )
 }
+
+export default Content
