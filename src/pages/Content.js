@@ -1,9 +1,8 @@
-import Profile from '../partials/Profile'
+
 
 function Content() {
     return(
         <>
-            <h1>Hello World</h1>
         </>
     )
 }
