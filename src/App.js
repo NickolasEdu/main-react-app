@@ -6,12 +6,18 @@ import Boxes from "./partials/Boxes"
 import imgCoding from "./img/codinghold.jpg"
 import imgDev from "./img/dev.jpg"
 import imgFront from "./img/front.jpg"
+import imgMain from "./img/imgMain.jpg"
 
 function App() {
   return (
     <>
         <Header />
-        <Profilehold />
+
+        <Profilehold
+        image={imgMain}
+        name="Nickolas Eduardo"
+        bio="Description of place holder"
+        />
 
         <Boxes>
           <Box

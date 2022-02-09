@@ -1,11 +1,14 @@
-function Profilehold() {
+import '../styles/Profile.css'
+
+const Profilehold = ({ image, name, bio}) => {
     return(
-        <>
-            <span>IMG</span>
-            <h1>Name Lastholder</h1>
-            <p>Description lorem ipsum</p>
-        </>
+        <div className="Profile">
+            <img src={image} />
+            <h1>{name}</h1>
+            <p>{bio}</p>
+        </div>
+        
     )
 }
 
-export default Profilehold
+export default Profilehold;
