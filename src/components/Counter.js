@@ -11,7 +11,16 @@ const Main = styled.counter`
     border-radius: 3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
 `
+const Display = styled.span`
+    display: block;
+    font-size: 3em;
+`
 
+const Button = styled.button`
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 5px;
+`
 
 
 function Counter() {
@@ -28,10 +37,10 @@ function Counter() {
 
   return (
     <Main className='counter'>
-      <span>{ value }</span>
+      <Display>{ value }</Display>
       <br></br>
-      <button onClick={minusOne}>-1</button>
-      <button onClick={plusOne}>+1</button>
+      <Button onClick={minusOne}>-1</Button>
+      <Button onClick={plusOne}>+1</Button>
     </Main>
   );
 }
