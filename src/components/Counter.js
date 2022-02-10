@@ -1,6 +1,18 @@
 import React, { useState } from 'react'
+import styled from 'styled-components'
 
-import './Counter.css'
+const Main = styled.counter`
+    width: 300px;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #FFFF;
+    text-align: center;
+    padding: 50px;
+    border-radius: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+`
+
+
 
 function Counter() {
   
@@ -15,12 +27,12 @@ function Counter() {
   }
 
   return (
-    <div className='counter'>
+    <Main className='counter'>
       <span>{ value }</span>
       <br></br>
       <button onClick={minusOne}>-1</button>
       <button onClick={plusOne}>+1</button>
-    </div>
+    </Main>
   );
 }
 
