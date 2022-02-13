@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styled from 'styled-components'
 
-const Main = styled.counter`
+const Main = styled.div`
     width: 300px;
     margin: 0 auto;
     background-color: #000000;
