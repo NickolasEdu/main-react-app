@@ -25,22 +25,22 @@ const Button = styled.button`
 
 function Counter() {
   
-  const [ value, setValue] = useState(0)
+  const [ counterValue, setCounterValue] = useState(0)
 
-  function minusOne() {
-    setValue(value - 1)
-  }
+  function handleCounting(operator) {
+    let newCounterValue = operator === '+'
+    ? counterValue + 1
+    : counterValue - 1
 
-  function plusOne() {
-    setValue(value + 1)
+    setCounterValue(newCounterValue)
   }
 
   return (
     <Main className='counter'>
-      <Display>{ value }</Display>
+      <Display>{ counterValue }</Display>
       <br></br>
-      <Button onClick={minusOne}>-1</Button>
-      <Button onClick={plusOne}>+1</Button>
+      <Button onClick={() => handleCounting('-')}>-1</Button>
+      <Button onClick={() => handleCounting('+')}>+1</Button>
     </Main>
   );
 }
