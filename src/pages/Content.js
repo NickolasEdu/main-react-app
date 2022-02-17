@@ -1,4 +1,4 @@
-import Profilehold from "../partials/Profilehold"
+import Profile from "../partials/Profile"
 import Header from "../partials/Header"
 import Box from "../partials/Box"
 import Boxes from "../partials/Boxes"
@@ -6,18 +6,13 @@ import Boxes from "../partials/Boxes"
 import imgCoding from "../img/codinghold.jpg"
 import imgDev from "../img/dev.jpg"
 import imgFront from "../img/front.jpg"
-import imgMain from "../img/imgMain.jpg"
 
 function Content() {
     return (
         <>
             <Header />
 
-            <Profilehold
-                image={imgMain}
-                name="Nickolas Eduardo"
-                bio="Description of place holder"
-            />
+            <Profile />
 
             <Boxes>
                 <Box
