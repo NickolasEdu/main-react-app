@@ -1,9 +1,14 @@
-import '../styles/Boxes.css'
+import styled from 'styled-components'
+
+const Father = styled.div`
+    display: flex;
+    margin: auto;
+`
 
 export default function Boxes({ children }) {
     return(
-        <div className="Boxes">
+        <Father>
             { children }
-        </div>
+        </Father>
     )
 }
