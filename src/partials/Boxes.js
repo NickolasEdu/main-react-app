@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Father = styled.div`
     display: flex;
-    margin: auto;
+    margin: 20px auto;
 `
 
 export default function Boxes({ children }) {
