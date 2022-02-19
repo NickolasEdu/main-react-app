@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.573c7451.js",
+    "static/media/codinghold.jpg": "/static/media/codinghold.1b9dade29837cd41dc02.jpg",
+    "static/media/dev.jpg": "/static/media/dev.8bb0ded3409d36ba83ed.jpg",
+    "static/media/imgMain.jpg": "/static/media/imgMain.1f0f5efc8b416c57b5e7.jpg",
+    "static/media/front.jpg": "/static/media/front.8fb77199fe00ae80a309.jpg",
+    "index.html": "/index.html",
+    "main.573c7451.js.map": "/static/js/main.573c7451.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.573c7451.js"
+  ]
+}
