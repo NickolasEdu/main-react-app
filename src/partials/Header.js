@@ -6,6 +6,7 @@ const Navbar = styled.header`
     text-align: center;
     height: 100%;
     width: 100%;
+    margin: 0;
 `
 
 export default function Header() {
