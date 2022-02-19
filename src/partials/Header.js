@@ -7,12 +7,13 @@ const Navbar = styled.header`
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
 `
 
 export default function Header() {
     return(
         <Navbar>
-            <h1>This is the navbar</h1>
+            <h1>Welcome to my profile</h1>
         </Navbar>
     )
 }
