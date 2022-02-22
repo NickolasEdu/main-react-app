@@ -5,7 +5,7 @@ const Navbar = styled.header`
     color: #f5f5f5;
     text-align: center;
     height: 100%;
-    width: 100%;
+    min-width: 100vh;
     margin: 0;
     padding: 0;
 `

@@ -15,6 +15,12 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+import Styled from 'styled-components'
+
+const Span = Styled.span`
+  font-weight: bold;
+`
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -69,27 +75,14 @@ export default function RecipeReviewCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+            Buscando alcançar meus objetivos e melhorar a cada dia. Como desenvolvedor web, minha stack atualmente consiste em <Span>React.js, Javascript, HTML e CSS</Span>, também já tive contado com Node.js e Express.js, mas hoje estou <Span>focado no frontend.</Span>
           </Typography>
           <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
-            medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
-            occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
-            large plate and set aside, leaving chicken and chorizo in the pan. Add
-            pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
-            stirring often until thickened and fragrant, about 10 minutes. Add
-            saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+          Como desenvolvedor Junior, o meu objetivo inicial é <Span>aprender e agregar</Span>, pelo fato de ser iniciante eu não posso ignorar a questão de que existem muitas coisas das quais eu não sei, como processos de desenvolvimento, boas práticas, programação funcional e saber escrever um código limpo de verdade. Essas são habilidades que eu quero evoluir no meu dia a dia como desenvolvedor, ao mesmo tempo em que <Span>busco demostrar o meu valor, para ajudar a equipe e apresentar resultados.</Span>
           </Typography>
           <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is absorbed,
-            15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
-            mussels, tucking them down into the rice, and cook again without
-            stirring, until mussels have opened and rice is just tender, 5 to 7
-            minutes more. (Discard any mussels that don’t open.)
+          Estudar programação não só me ensinou sobre código, como me ensinou a <Span>estudar com consistência, persistência e paciência. Além da minha facilidade com o inglês ter me ajudado muito nesse processo,</Span> e agora eu criei o hábito de não só praticar o código mas também a língua inglesa toda a semana. Acredito que o adjetivo desenvolvedor para mim, se aplica no geral, pois para aprender a desenvolver sistemas, primeiro eu tive que aprender a me desenvolver, como alguém que tem a <Span>ambição de sempre buscar aprender e melhorar, todos os dias.</Span>
           </Typography>
           <Typography>
             Set aside off of the heat to let rest for 10 minutes, and then serve.
