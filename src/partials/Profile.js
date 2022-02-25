@@ -5,6 +5,7 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
+import Link from '@mui/material/Link'
 import imgMain from '../img/imgMain.jpg'
 
 import Collapse from '@mui/material/Collapse';
@@ -58,12 +59,16 @@ export default function RecipeReviewCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <GitHubIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <LinkedInIcon />
-        </IconButton>
+        <Link href='https://github.com/NickolasEdu'>
+          <IconButton aria-label="add to favorites">
+            <GitHubIcon />
+          </IconButton>
+        </Link>
+        <Link href='https://www.linkedin.com/in/nickolas-eduardo-175345231/'>
+          <IconButton aria-label="share">
+            <LinkedInIcon />
+          </IconButton>
+        </Link>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
