@@ -3,7 +3,9 @@ import styled from 'styled-components'
 const Father = styled.div`
     margin: auto;
     width: 25%;
-    background-color: rgb(236, 232, 232);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(21, 21, 133);
