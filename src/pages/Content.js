@@ -1,7 +1,7 @@
 import Profile from "../partials/Profile"
 import Header from "../partials/Header"
-import Box from "../partials/Box"
-import Boxes from "../partials/Boxes"
+import Box from "../partials/Box/Box"
+import Boxes from "../partials/Box/Boxes"
 import Profilehold from "../partials/Profilehold"
 import Footer from '../partials/Footer'
 

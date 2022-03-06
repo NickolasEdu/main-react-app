@@ -6,6 +6,7 @@ const Main = styled.div`
     margin: auto;
     background-color: #000000;
     padding: 50px;
+    width: 100%;
 `
 
 const Profilehold = ({ children }) => {
