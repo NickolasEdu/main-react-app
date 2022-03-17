@@ -1,5 +1,4 @@
 import Profile from "../partials/Profile"
-import Header from "../partials/Header"
 import Box from "../partials/Box/Box"
 import Boxes from "../partials/Box/Boxes"
 import Profilehold from "../partials/Profilehold"
@@ -12,7 +11,6 @@ import imgFront from "../img/front.jpg"
 function Content() {
     return (
         <>
-            <Header />
 
             <Profilehold>
                 <Profile />
