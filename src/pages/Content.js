@@ -1,38 +1,31 @@
-import Profile from "../partials/Profile"
+import Profile from "../partials/profile/Profile"
+import Resume from "../partials/resume/Resume"
 import Box from "../partials/Box/Box"
 import Boxes from "../partials/Box/Boxes"
-import Profilehold from "../partials/Profilehold"
+import Profilehold from "../partials/profile/Profilehold"
 import Footer from '../partials/Footer'
 
-import imgCoding from "../img/codinghold.jpg"
-import imgDev from "../img/dev.jpg"
-import imgFront from "../img/front.jpg"
+
+import imgMain from "../img/imgMain.jpg"
+import wProgress from "../img/workprogress.jpg"
 
 function Content() {
     return (
         <>
 
             <Profilehold>
-                <Profile />
+                <Profile
+                    image={imgMain}
+                    title="Nickolas Eduardo"
+                    subtitle="Web Developer | Frontend"
+                />
             </Profilehold>
+
+            <Resume />
 
             <Boxes>
                 <Box
-                    image={imgCoding}
-                    title="Projeto 1"
-                    text="aqui vai o projeto 3"
-                />
-
-                <Box
-                    image={imgDev}
-                    title="Projeto 2"
-                    text="Aqui vai o projeto 2"
-                />
-
-                <Box
-                    image={imgFront}
-                    title="Projeto 3"
-                    text="Aqui vai o projeto 3"
+                    image={wProgress}
                 />
             </Boxes>
 
