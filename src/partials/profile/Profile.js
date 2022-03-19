@@ -4,12 +4,12 @@ const Father = styled.div`
     margin: auto;
     width: 65vw;
     height: 80vh;
-    background: #FFFFFF;
+    background: #C5C6C7;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgb(21, 21, 133);
+    box-shadow: 0 0 10px #45A29E;
 `
 
 const Banner = styled.img`

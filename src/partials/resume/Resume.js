@@ -9,8 +9,13 @@ const Typo = styled.p`
     margin: 0.2em auto;
 `
 
+const Default = styled.body`
+    background-color: #C5C6C7;
+`
+
 export default function Resume() {
     return(
+        <Default>
         <Resumestyle>
 
             <Typo>
@@ -29,5 +34,6 @@ export default function Resume() {
                 Eu também tenho total disponibilidade de me realocar (seja de cidade, município ou até de estado) desde que, de alguma forma seja necessário para o meu crescimento profissional.
             </Typo>
         </Resumestyle>
+        </Default>
     )
 }
