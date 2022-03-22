@@ -10,6 +10,8 @@ const Typo = styled.p`
 `
 
 const Default = styled.body`
+    height: 100vh;
+    margin: 0;
     background-color: #C5C6C7;
 `
 
