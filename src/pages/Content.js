@@ -20,12 +20,8 @@ function Content() {
                     subtitle="Web Developer | Frontend"
                 />
             </Profilehold>
+
             <Resume />
-            <Boxes>
-                <Box
-                    image={wProgress}
-                />
-            </Boxes>
 
             <Footer />
         </>
