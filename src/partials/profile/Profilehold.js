@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Main = styled.div`
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0;
     width: 100vw;
     height: 95vh;
     background: rgba(31, 40, 51, 1);  

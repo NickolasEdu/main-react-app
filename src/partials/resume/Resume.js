@@ -8,9 +8,13 @@ const Span = styled.span`
 const Typo = styled.p`
     margin: 0.2em auto;
 `
+const Headliner = styled.h1`
+    text-align: center;
+    margin-top: 1px;
+`
 
 const Default = styled.body`
-    height: 100vh;
+    height: 100%;
     margin: 0;
     background-color: #C5C6C7;
 `
@@ -20,6 +24,10 @@ export default function Resume() {
         <Default>
         <Resumestyle>
 
+            <Headliner>
+                Resumo
+            </Headliner>
+        
             <Typo>
                 Buscando alcançar meus objetivos e melhorar a cada dia. Como desenvolvedor web, minha stack atualmente consiste em <Span>React.js, Javascript, HTML e CSS</Span>, também já tive contado com Node.js e Express.js, mas hoje estou <Span>focado no frontend.</Span>
             </Typo>
